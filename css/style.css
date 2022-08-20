@@ -750,6 +750,30 @@ footer {
   color: #CCCCCC;
 }
 
+.forpoints{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width:1024px) {
+  #footer{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+  }
+
+  .footer1{
+    margin-left: 50px;
+  }
+
+  .footer2{
+    width: 40% ;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
 @media (max-width: 768px) {
   nav {
     -webkit-box-pack: justify;
@@ -1054,5 +1078,46 @@ footer {
   .d7 {
     background: url(../images/Travel.jpg);
   }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 100%;
+  }
+
+  .footer1{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height:270px;
+    width: 100%;
+  }
+
+  .footer2{
+    margin: 0;
+    margin-top: 60px;
+  }
+
+
+  .footer-menu{
+    margin: 30px auto;
+    margin-left: 100px;
+    display: block;
+  }
+
+  .footer-partners{
+    display: none;
+  }
+
+
+
 }
 /*# sourceMappingURL=style.css.map */
